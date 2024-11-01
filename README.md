@@ -1,4 +1,4 @@
 # techdelight.github.io
 TechDelight github page
 
-![[logo.png]]
+![[assets/logo.png]]
