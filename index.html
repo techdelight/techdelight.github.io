@@ -1,9 +1,80 @@
-<html>
-
+<!-- #Copyright (C) 2024 TechDelight BV -->
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>TechDelight B.V.</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>TechDelight B.V.</title>
+
+    <link rel="stylesheet" href="./assets/bootstrap.css">
+    <style>
+        .navbar-brand img {
+            height: 50px;
+        }
+    </style>
 </head>
 <body>
-<p>Hello World</p>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+        <img src="./assets/logo.png" alt="TechDelight B.V.">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<!-- About Section -->
+<section id="about" class="py-5">
+    <div class="container">
+        <h2 class="text-center">About Us</h2>
+        <p class="lead text-center">Welcome to TechDelight BV. We specialize in the creation of bespoke software.</p>
+        <p class="text-center">Our mission is to improve the world.</p>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center">Contact Us</h2>
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <p class="text-center">Feel free to reach out to us with any questions or inquiries.</p>
+                <ul class="list-unstyled text-center">
+                    <li><strong>Email:</strong> <a href="mailto:info@davidstibbe.nl">info@davidstibbe.nl</a></li>
+                    <li><strong>KvK:</strong> 73494763</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center py-4">
+    <div class="container">
+        <p>&copy; 2024 TechDelight BV. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="./assets/bootstrap.bundle.min.js"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        console.log("Hello World");
+    });
+</script>
 </body>
 </html>
